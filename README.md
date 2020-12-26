@@ -1,5 +1,5 @@
-youtube-dl-gui --  A simple video download application, built on top of youtube-dl
-==================================================================================
+youtube-dl-gui - A simple video download application
+====================================================
 
 
 Rationale
@@ -53,11 +53,11 @@ user:
 
 Keyboard shortcuts are available for the following buttons:
 
-- `Start` -- `Enter` key
-- `Stop` -- `S` key
-- `Close` -- `Escape` key
-- `Edit` -- `E` key
-- `Restart` -- 'R' key
+- `Start` - `Enter` key
+- `Stop` - `S` key
+- `Close` - `Escape` key
+- `Edit` - `E` key
+- `Restart` - 'R' key
 
 
 Installation
@@ -71,15 +71,15 @@ Install dependencies:
     pip install pyperclip
 
 If your `youtube-dl-gui` directory is visible from `PYTHONPATH`, simply use
-``python -m youtube-dl-gui`` to run youtube-dl-gui.
+``python -m youtube-dl-gui`` to run the application.
 
 
 Compatibility
 -------------
 
-youtube-dl-gui requires Python 3.7 or later.
+`youtube-dl-gui` requires Python 3.7 or later.
 
-I have only tested youtube-dl-gui under Windows 10, but it should be pretty
-portable an run on any OS on which youtube-dl, gooey and pyperclip can run.
-This presumably includes most Linux flavors, as well as MacOS, although I have
-not made any tests on these OS's.
+I have only tested `youtube-dl-gui` under Windows 10, but it should be pretty
+portable an run on any OS on which `youtube-dl`, `gooey` and `pyperclip` can
+run. This presumably includes most Linux flavors, as well as MacOS, although I
+have not made any tests on these OS's.
