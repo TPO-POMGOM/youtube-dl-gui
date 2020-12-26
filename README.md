@@ -5,7 +5,7 @@ youtube-dl-gui --  A simple video download application, built on top of youtube-
 Rationale
 ---------
 
-youtube-dl is a great tool to download videos, but it is not very convenient:
+`youtube-dl` is a great tool to download videos, but it is not very convenient:
 
 - Its user interface is a command line, not a GUI.
 
@@ -15,8 +15,8 @@ youtube-dl is a great tool to download videos, but it is not very convenient:
 - Monitoring progress requires the user to switch to each command line window
   in turn and read the progress message.
 
-youtube-dl-gui is a GUI built on top of youtube-dl, using gooey and some
-homemade extensions to gooey, in order to provide a more convenient user
+`youtube-dl-gui` is a GUI built on top of `youtube-dl`, using `gooey` and some
+homemade extensions to `gooey`, in order to provide a more convenient user
 interface for downloading videos.
 
 
@@ -30,25 +30,26 @@ UI1, UI2, Alt-Tab
 Usage
 -----
 
-youtube-dl-gui allows a smooth workflow with minimal effort on the part of the
+`youtube-dl-gui` allows a smooth workflow with minimal effort on the part of the
 user:
 
 - Copy the URL of the video you wish to download.
 
-- Launch youtube-dl-gui.
+- Launch `youtube-dl-gui`.
 
 - The URL present in the clipboard is detected and preloaded in the UI. If the
-  default download directory suits you, simply press the `Enter` key.
+  default download directory suits you, simply press the `Enter` key to start
+  downloading the video.
 
-- youtube-dl-gui displays a nice green progress bar while the video is
+- `youtube-dl-gui` displays a nice green progress bar while the video is
   downloading, as well as an estimate of the remaining time.
 
-- As soon as youtube-dl determines the title of the video, it is displayed as
-  the title for the youtube-dl-gui window. 
+- As soon as the title of the video is determined, it is displayed as the title
+  for the `youtube-dl-gui` window. 
 
 - On Windows, monitoring download progress is as simple as pressing `Alt+Tab`:
-  youtube-dl-gui windows bear the title of the video they are downloading, and
-  the green progress bar gives a visual indication of progress.
+  `youtube-dl-gui` windows bear the title of the video they are downloading,
+  and the green progress bar gives a visual indication of progress.
 
 Keyboard shortcuts are available for the following buttons:
 
