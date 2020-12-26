@@ -1,5 +1,5 @@
-youtube-dl-gui - A simple video download application
-====================================================
+youtube-dl-gui - A simple video downloader
+==========================================
 
 
 Rationale
@@ -20,13 +20,6 @@ homemade extensions to `gooey`, in order to provide a more convenient user
 interface for downloading videos.
 
 
-  ![UI](Screenshot_1_UI.png)
-
-  ![Mail](Screenshot_2_Mail.png)
-
-UI1, UI2, Alt-Tab
-
-
 Usage
 -----
 
@@ -41,8 +34,12 @@ user:
   default download directory suits you, simply press the `Enter` key to start
   downloading the video.
 
+![UI](screenshot_1_user_input.png)
+
 - `youtube-dl-gui` displays a nice green progress bar while the video is
   downloading, as well as an estimate of the remaining time.
+
+ ![Mail](Screenshot_2_Mail.png)
 
 - As soon as the title of the video is determined, it is displayed as the title
   for the `youtube-dl-gui` window. 
@@ -80,6 +77,6 @@ Compatibility
 `youtube-dl-gui` requires Python 3.7 or later.
 
 I have only tested `youtube-dl-gui` under Windows 10, but it should be pretty
-portable an run on any OS on which `youtube-dl`, `gooey` and `pyperclip` can
+portable and run on any OS on which `youtube-dl`, `gooey` and `pyperclip` can
 run. This presumably includes most Linux flavors, as well as MacOS, although I
 have not made any tests on these OS's.
