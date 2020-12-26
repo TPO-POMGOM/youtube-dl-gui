@@ -1,11 +1,6 @@
-""" Simple video downloader GUI.
+""" Simple application to download videos, built on top of youtube-dl.
 
 Simple video downloader based on youtube-dl, with a GUI built using gooey.
-
-TODO
-- Push to gitbut
-- README + screenshot
-- LICENCE
 
 Dependencies: gooey, gooey_extensions, pyperclip, wx. """
 
