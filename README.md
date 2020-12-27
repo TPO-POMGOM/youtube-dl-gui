@@ -34,12 +34,12 @@ user:
   default download directory suits you, simply press the `Enter` key to start
   downloading the video.
 
-![UI](screenshot_1_user_input.png)
+  ![User input](screenshot_1_user_input.png)
 
 - `youtube-dl-gui` displays a nice green progress bar while the video is
   downloading, as well as an estimate of the remaining time.
 
- ![Mail](Screenshot_2_Mail.png)
+  ![Download progress](screenshot_2_download_progress.png)
 
 - As soon as the title of the video is determined, it is displayed as the title
   for the `youtube-dl-gui` window. 
@@ -47,6 +47,8 @@ user:
 - On Windows, monitoring download progress is as simple as pressing `Alt+Tab`:
   `youtube-dl-gui` windows bear the title of the video they are downloading,
   and the green progress bar gives a visual indication of progress.
+
+  ![Alt Tab](screenshot_3_alt_tab.png)
 
 Keyboard shortcuts are available for the following buttons:
 
