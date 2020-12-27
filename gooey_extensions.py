@@ -12,7 +12,9 @@ These extensions to gooey implement the following functionnality:
 The extensions are implemented by monkey patching gooey's code. This
 demonstrates the power of dynamic languages such as Python, but is not very
 good programming manners. I should definitely submit a PR to gooey's author
-whenever I find the time. """
+whenever I find the time.
+
+**Compatibility** -- The code works with version 1.0.8 of gooey. """
 
 
 from dataclasses import dataclass

@@ -78,6 +78,8 @@ Compatibility
 
 `youtube-dl-gui` requires Python 3.7 or later.
 
+`gooey_extensions.py` has been tested with version 1.0.8 of `gooey`. 
+
 I have only tested `youtube-dl-gui` under Windows 10, but it should be pretty
 portable and run on any OS on which `youtube-dl`, `gooey` and `pyperclip` can
 run. This presumably includes most Linux flavors, as well as MacOS, although I
