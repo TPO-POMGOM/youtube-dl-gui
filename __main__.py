@@ -19,6 +19,7 @@ DEFAULT_DIR = str(Path('~').expanduser() / 'Downloads')
 
 def transform_output_arg(dir: str) -> str:
     """ Build youtube-dl '--output' option from directory selected by user. """
+    dir = dir.strip('"')
     return rf'{dir}\%(title)s.%(ext)s'
 
 
