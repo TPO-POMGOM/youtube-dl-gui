@@ -56,7 +56,7 @@ Keyboard shortcuts are available for the following buttons:
 - `Stop` - `S` key
 - `Close` - `Escape` key
 - `Edit` - `E` key
-- `Restart` - 'R' key
+- `Restart` - `R` key
 
 
 Installation
